@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: "Roboto Light", "Roboto Thin", sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #F0F5F9;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    cursor:pointer;
+}
+
+.wrapper {
+    padding: 0 16px;
+}

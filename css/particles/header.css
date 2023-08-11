@@ -1,0 +1,23 @@
+header {
+    background-color: #C9D6DF;
+}
+
+.header_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.header_navbar_logo {
+    display: flex;
+    align-items: center;
+}
+
+.header_navbar_logo_icon i{
+    font-size: 30px;
+}
+
+.header_navbar_links {
+    display: flex;
+}
