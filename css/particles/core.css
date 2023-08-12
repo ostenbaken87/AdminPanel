@@ -14,9 +14,6 @@ html, body {
 
 body {
     background: #F0F5F9;
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
 }
 
 ol, ul {
@@ -31,5 +28,13 @@ a {
 }
 
 .wrapper {
-    padding: 0 16px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+}
+
+.wrapper_content {
+    max-width: 1170px;
+    margin: 0 auto;
 }

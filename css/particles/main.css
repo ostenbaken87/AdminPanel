@@ -1,3 +1,17 @@
 main {
+    background-color: #F0F5F9;
+}
 
+.main_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.main_card {
+    background-color: #769FCD;
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
 }
