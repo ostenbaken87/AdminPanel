@@ -38,3 +38,31 @@ a {
     max-width: 1170px;
     margin: 0 auto;
 }
+
+.green {
+    background-color: #A6E3E9;
+}
+
+.blue {
+    background-color: #769FCD;
+}
+
+.red {
+    background-color: #EA5455;
+}
+
+.yellow {
+    background-color: #FFD460;
+}
+
+.grey {
+    background-color: #F0F5F9;
+}
+
+.blusky {
+    background-color: #A1EAFB;
+}
+
+.purple {
+    background-color: #9896F1;
+}
