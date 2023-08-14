@@ -57,9 +57,66 @@ main {
 .main_community {
     display: grid;
     gap: 20px;
-    grid-template-columns: 700px auto;
+    grid-template-columns: 2fr 1fr;
     padding: 16px;
 }
+
+.main_comments_count, .main_users_count {
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.23);
+    margin-bottom: 20px;
+}
+
+.main_comments_lent {
+    display: grid;
+    grid-auto-rows: 200px;
+    row-gap: 20px;
+}
+
+.comments_user {
+    display: grid;
+    grid-template-columns: 128px auto;
+    column-gap: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.23);
+    padding: 16px;
+}
+
+.comments_user_profile {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.comments_user_profile img, .users_user_avatar img {
+    border-radius: 8px;
+    height: 128px;
+    max-width: 128px;
+}
+
+.main_users_lent {
+    display: grid;
+    grid-template-columns: repeat(3, 128px);
+    grid-auto-rows: 200px;
+    justify-items: center;
+    padding: 16px;
+    column-gap: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.23);
+    text-align: center;
+    font-weight: bold;
+}
+
+.users_user_name {
+    padding: 16px 0;
+}
+
+
 
 
 

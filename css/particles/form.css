@@ -1,0 +1,32 @@
+form {
+    background-color: #F0F5F9;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.23);
+}
+
+label {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+input {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+input:focus {
+    border: 1px solid black;
+}
+
+.form-text {
+    font-size: 13px;
+    padding: 10px 0;
+    color: #bdb9b9;
+}
+
+
+
+
