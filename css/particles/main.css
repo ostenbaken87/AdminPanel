@@ -31,7 +31,7 @@ main {
     filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.2));
 }
 
-.card_icon i:hover {
+.card_icon i:hover, .card_edit a:hover {
     color: #F0F5F9;
     cursor: pointer;
 }
@@ -114,6 +114,10 @@ main {
 
 .users_user_name {
     padding: 16px 0;
+}
+
+.main_create {
+    padding: 16px;
 }
 
 
