@@ -1,6 +1,8 @@
 form {
     background-color: #F0F5F9;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px;
     border-radius: 8px;
     padding: 16px;
     box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.23);
@@ -8,10 +10,9 @@ form {
 
 label {
     font-weight: bold;
-    margin-right: 15px;
 }
 
-input {
+input, textarea, select {
     border: 1px solid grey;
     border-radius: 5px;
     padding: 10px 15px;

@@ -45,9 +45,31 @@
         <div class="main_create wrapper_content">
             <h1>Creat Posts</h1>
             <form>
-                <label class="form-label">Name tag</label>
-                <input type="text" class="form-control">
-                <div class="form-text">We'll never share your tag with anyone else.</div>
+                <label for="title" class="form-label">Post title</label>
+                <input id="title" name="title" type="text" class="form-control">
+
+                <label for="description" class="form-label">Post description</label>
+                <input id="description" name="description" type="text" class="form-control">
+
+                <label for="text" class="form-label">Post text</label>
+                <textarea id="text" rows="7" name="text" class="form-control"></textarea>
+
+                <label for="upload" class="form-label">Upload image</label>
+                <input type="file" name="upload" id="upload">
+
+                <label for="categories" class="form-label">Post category</label>
+                <select name="categories" id="categories">
+                    <option>Category1</option>
+                    <option>Category2</option>
+                    <option>Category3</option>
+                </select>
+
+                <label for="tags" class="form-label">Post tags</label>
+                <select name="tags" id="tags">
+                    <option>Tag1</option>
+                    <option>Tag2</option>
+                    <option>Tag3</option>
+                </select>
 
                 <button type="submit" class="btn_create">
                     Create
