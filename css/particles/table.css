@@ -15,6 +15,16 @@ th, td {
     border-bottom: 1px solid grey;
 }
 
+td i:hover {
+    color: black;
+}
 
+table .fa-trash {
+    color: red;
+}
+
+table .fa-eye {
+    color: green;
+}
 
 

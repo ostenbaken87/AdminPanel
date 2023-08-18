@@ -31,7 +31,7 @@ main {
     filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.2));
 }
 
-.card_icon i:hover, .card_edit a:hover {
+.card_icon i:hover, .card_look a:hover, .card_edit a:hover {
     color: #F0F5F9;
     cursor: pointer;
 }
@@ -128,7 +128,25 @@ main {
     padding: 16px;
 }
 
+.main_header {
+    display: flex;
+}
 
+.main_back {
+    display: flex;
+    background-color: #F0F5F9;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.23);
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_back a:hover {
+    color: #8fa4b2;
+}
 
 
 

@@ -43,7 +43,16 @@
     </header>
     <main class="main">
         <div class="main_create wrapper_content">
-            <h1>Creat Posts</h1>
+            <div class="main_header">
+                <div class="main_title">
+                    <h1>Creat Posts</h1>
+                </div>
+                <div class="main_back">
+                    <a href="index.html">
+                        <i class="fas fa-angle-double-left"></i>
+                    </a>
+                </div>
+            </div>
             <form>
                 <label for="title" class="form-label">Post title</label>
                 <input id="title" name="title" type="text" class="form-control">
@@ -59,18 +68,16 @@
 
                 <label for="categories" class="form-label">Post category</label>
                 <select name="categories" id="categories">
-                    <option selected disabled>Choose category</option>
-                    <option value="category1">Category1</option>
-                    <option value="category2">Category2</option>
-                    <option value="category3">Category3</option>
+                    <option>Category1</option>
+                    <option>Category2</option>
+                    <option>Category3</option>
                 </select>
 
                 <label for="tags" class="form-label">Post tags</label>
                 <select name="tags" id="tags">
-                    <option selected disabled>Choose tags</option>
-                    <option value="tag1">Tag1</option>
-                    <option value="tag2">Tag2</option>
-                    <option value="tag3">Tag3</option>
+                    <option>Tag1</option>
+                    <option>Tag2</option>
+                    <option>Tag3</option>
                 </select>
 
                 <button type="submit" class="btn_create">
