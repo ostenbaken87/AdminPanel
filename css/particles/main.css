@@ -116,10 +116,17 @@ main {
     padding: 16px 0;
 }
 
-.main_create {
+.main_create, .main_show {
     padding: 16px;
 }
 
+.main_title {
+    background-color: #F0F5F9;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.23);
+    padding: 16px;
+}
 
 
 
