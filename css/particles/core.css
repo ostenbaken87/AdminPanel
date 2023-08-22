@@ -71,7 +71,9 @@ h1 {
     background-color: #9896F1;
 }
 
-.btn_create {
+.btn_create,
+.btn-edit,
+.btn-delete {
     padding: 10px;
     background-color: #bdb9b9;
     border-radius: 5px;
@@ -80,5 +82,21 @@ h1 {
 }
 
 .btn_create:hover {
+    color: #F0F5F9;
+}
+
+.btn-edit {
+    background-color: green;
+}
+
+.btn-edit:hover {
+    color: #F0F5F9;
+}
+
+.btn-delete {
+    background-color: #EA5455;
+}
+
+.btn-delete:hover {
     color: #F0F5F9;
 }

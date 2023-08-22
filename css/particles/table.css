@@ -4,7 +4,6 @@ table {
     margin-top: 20px;
     border-radius: 8px;
     box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.23);
-    text-align: center;
     border-collapse: collapse;
     border: 0 solid;
 }
@@ -13,6 +12,8 @@ table {
 th, td {
     padding: 16px;
     border-bottom: 1px solid grey;
+    text-align: center;
+    vertical-align: middle;
 }
 
 td i:hover {
@@ -25,6 +26,13 @@ table .fa-trash {
 
 table .fa-eye {
     color: green;
+}
+
+table img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 0 rgba(0,0,0,0.23);
 }
 
 

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminPanel</title>
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="header_navbar wrapper_content">
+            <div class="header_navbar_logo">
+                <div class="header_navbar_logo_icon">
+                    <i class="fa-solid fa-font"></i>
+                </div>
+                <div class="header_navbar_logo_brand">
+                    <a href="index.html">AdminPanel</a>
+                </div>
+            </div>
+            <div class="header_navbar_links">
+                <div class="header_navbar_links_link">
+                    <a href="">Home</a>
+                </div>
+                <div class="header_navbar_links_link">
+                    <a href="">Categories</a>
+                </div>
+                <div class="header_navbar_links_link">
+                    <a href="">Tags</a>
+                </div>
+                <div class="header_navbar_links_link">
+                    <a href="">Posts</a>
+                </div>
+                <div class="header_navbar_links_link">
+                    <a href="">Statistics</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main_show wrapper_content">
+            <div class="main_header">
+                <div class="main_title">
+                    <h1>All Posts</h1>
+                </div>
+                <div class="main_back">
+                    <a href="index.html">
+                        <i class="fas fa-angle-double-left"></i>
+                    </a>
+                </div>
+            </div>
+            <table>
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Text</th>
+                    <th>Image</th>
+                    <th>Category</th>
+                    <th>Tags</th>
+                    <th colspan="2">Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Post1</td>
+                    <td>Description</td>
+                    <td>Text</td>
+                    <td>
+                        <img src="src/images/food01.jpg" alt="">
+                    </td>
+                    <td>Category</td>
+                    <td>Tags</td>
+                    <td>
+                        <a href="show_one_post.html">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="">
+                            <i class="fas fa-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Post2</td>
+                    <td>Description2</td>
+                    <td>Text2</td>
+                    <td>
+                        <img src="src/images/food02.jpg" alt="">
+                    </td>
+                    <td>Category2</td>
+                    <td>Tags2</td>
+                    <td>
+                        <a href="">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="">
+                            <i class="fas fa-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Post3</td>
+                    <td>Description3</td>
+                    <td>Text3</td>
+                    <td>
+                        <img src="src/images/food03.jpg" alt="">
+                    </td>
+                    <td>Category3</td>
+                    <td>Tags3</td>
+                    <td>
+                        <a href="">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="">
+                            <i class="fas fa-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer_content wrapper_content">
+            Footer
+        </div>
+    </footer>
+</div>
+</body>
+</html>

@@ -149,6 +149,22 @@ main {
 }
 
 
+@media (max-width: 900px){
+    .main_community {
+        display: block;
+    }
+
+    .main_users {
+        margin-top: 20px;
+    }
+
+    .main_users_lent {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-auto-rows: auto;
+    }
+}
+
 
 
 
