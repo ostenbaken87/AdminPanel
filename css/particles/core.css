@@ -3,7 +3,6 @@
     margin: 0;
     border: 0;
     font-size: 100%;
-    vertical-align: baseline;
     box-sizing: border-box;
     font-family: "Roboto Light", "Roboto Thin", sans-serif;
 }
@@ -69,6 +68,10 @@ h1 {
 
 .purple {
     background-color: #9896F1;
+}
+
+.graphite {
+    background-color: #52616B;
 }
 
 .btn_create,

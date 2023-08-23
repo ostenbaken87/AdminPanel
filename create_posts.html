@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -46,6 +49,7 @@
             <div class="main_header">
                 <div class="main_title">
                     <h1>Creat Posts</h1>
+                    <i class="fas fa-paste"></i>
                 </div>
                 <div class="main_back">
                     <a href="index.html">
@@ -60,14 +64,15 @@
                 <label for="description" class="form-label">Post description</label>
                 <input id="description" name="description" type="text" class="form-control">
 
-                <label for="text" class="form-label">Post text</label>
-                <textarea id="text" rows="7" name="text" class="form-control"></textarea>
+                <label for="summernote" class="form-label">Post text</label>
+                <textarea id="summernote" placeholder="Create text post" rows="7" name="summernote" class="form-control"></textarea>
 
                 <label for="upload" class="form-label">Upload image</label>
                 <input type="file" name="upload" id="upload">
 
                 <label for="categories" class="form-label">Post category</label>
                 <select name="categories" id="categories">
+                    <option selected>Choose category...</option>
                     <option>Category1</option>
                     <option>Category2</option>
                     <option>Category3</option>
@@ -75,6 +80,7 @@
 
                 <label for="tags" class="form-label">Post tags</label>
                 <select name="tags" id="tags">
+                    <option selected>Choose tags...</option>
                     <option>Tag1</option>
                     <option>Tag2</option>
                     <option>Tag3</option>
@@ -92,5 +98,25 @@
         </div>
     </footer>
 </div>
+<script>
+    $('#summernote').summernote({
+        placeholder: 'Create text post',
+        tabsize: 2,
+        height: 220,
+        toolbar: [
+            ['style', ['style']],
+            ['font', ['bold', 'underline', 'italic', 'clear']],
+            ['color', ['color']],
+            ['para', ['ul', 'ol', 'paragraph']],
+            ['table', ['table']],
+            ['insert', ['link', 'picture', 'video']],
+            ['view', ['fullscreen', 'codeview', 'help']]
+        ],
+        lang: 'ru-RU',
+        fontNames: ['Arial', 'Arial Black', 'Comic Sans MS', 'Courier New'],
+
+    });
+</script>
+
 </body>
 </html>

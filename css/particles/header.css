@@ -42,4 +42,5 @@ header {
 
 .header_navbar_links_link a:hover {
     color: #F0F5F9;
+    transition: all 0.5s;
 }

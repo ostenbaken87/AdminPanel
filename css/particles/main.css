@@ -3,9 +3,9 @@ main {
 }
 
 .main_content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
     padding: 16px;
 }
 
@@ -34,6 +34,7 @@ main {
 .card_icon i:hover, .card_look a:hover, .card_edit a:hover {
     color: #F0F5F9;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 .card_body {
@@ -73,7 +74,7 @@ main {
 
 .main_comments_lent {
     display: grid;
-    grid-auto-rows: 200px;
+    grid-auto-rows: auto;
     row-gap: 20px;
 }
 
@@ -99,10 +100,15 @@ main {
     max-width: 128px;
 }
 
+.comments_user_name a:hover {
+    color: #52616B;
+    transition: all 0.5s;
+}
+
 .main_users_lent {
     display: grid;
     grid-template-columns: repeat(3, 128px);
-    grid-auto-rows: 200px;
+    grid-auto-rows: auto;
     justify-items: center;
     padding: 16px;
     column-gap: 20px;
@@ -116,16 +122,27 @@ main {
     padding: 16px 0;
 }
 
+.users_user_name a:hover {
+    color: #F0F5F9;
+    transition: all 0.5s;
+}
+
 .main_create, .main_show {
     padding: 16px;
 }
 
 .main_title {
     background-color: #F0F5F9;
-    display: inline-block;
+    display: flex;
+    align-items: center;
     border-radius: 8px;
     box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.23);
     padding: 16px;
+}
+
+.main_title i {
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 .main_header {
@@ -148,6 +165,49 @@ main {
     color: #8fa4b2;
 }
 
+.comments_user_plus {
+    background-color: #F0F5F9;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.23);
+    margin-top: 20px;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.comments_user_add_more i {
+    margin-right: 5px;
+}
+
+.comments_user_add_more a:hover {
+    color: #8fa4b2;
+    transition: all 0.5s;
+}
+
+.users_user_plus {
+    width: 128px;
+    height: 128px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.users_user_add_more a:hover {
+    color: #8fa4b2;
+    transition: all 0.5s;
+}
+
+.footer_rights {
+    font-weight: bold;
+    color: #F0F5F9;
+    text-align: center;
+}
+
+/*Adaptive layout*/
 
 @media (max-width: 900px){
     .main_community {

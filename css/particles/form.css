@@ -9,8 +9,10 @@ form {
     margin-top: 20px;
 }
 
-label {
+.form-label {
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 input, textarea, select {
