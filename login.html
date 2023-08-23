@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminPanel</title>
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="registration wrapper">
+    <div class="registration_title">
+        LogIn
+    </div>
+    <form class="form_registration">
+        <label class="form-label" for="email">E-mail</label>
+        <input id="email"
+               type="email"
+               name="email"
+               placeholder="Enter email">
+
+        <label class="form-label" for="password">Password</label>
+        <input type="password"
+               id="password"
+               name="password"
+               placeholder="Enter password">
+
+        <label class="form-label" for="rememberMe">Remember me</label>
+        <input class="input_checkbox" type="checkbox" value="IsRememberMe" id="rememberMe">
+
+        <button type="submit" class="btn-login">Login</button>
+    </form>
+</div>
+
+</body>
+</html>
