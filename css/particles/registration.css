@@ -6,6 +6,7 @@
 }
 
 .registration_title {
+    font-size: 20px;
     font-weight: bold;
     background-color: #ffffff;
     display: inline-block;
@@ -33,6 +34,7 @@
     border: 1px solid #52616B;
     grid-column: 1/3;
     justify-self: center;
+    font-weight: bold;
 }
 
 .btn-login {
