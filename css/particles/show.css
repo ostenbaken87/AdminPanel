@@ -33,4 +33,11 @@
     box-shadow: 5px 5px 3px 0 rgba(0,0,0,0.23);
 }
 
+.user_image_avatar img{
+    width: 150px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 0 rgba(0,0,0,0.23);
+}
+
 
